@@ -5,10 +5,10 @@ import TopicBrowser from './components/TopicBrowser/TopicBrowser';
 class App extends Component {
   render() {
     return (
-      <TopicBrowser />
+      <div>
+        <TopicBrowser />
+      </div>
     )
   }
 }
-
-
 export default App;
